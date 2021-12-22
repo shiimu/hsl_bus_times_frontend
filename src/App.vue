@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Hsl logo" src="./assets/logo.png" width="400" height="250" />
+  <time-component />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TimeComponent from "./components/TimeComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    TimeComponent,
+  },
+};
 </script>
 
 <style>
