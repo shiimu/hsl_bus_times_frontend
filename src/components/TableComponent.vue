@@ -1,7 +1,5 @@
 <template>
-  <datetime>
-    {{ time }}
-  </datetime>
+  <table></table>
 </template>
 
 <script>
